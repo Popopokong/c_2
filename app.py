@@ -10,7 +10,7 @@ st.markdown(f"""
     <style>
         html, body, [class*="st-emotion-cache"] {{
             font-family: 'Arial', sans-serif;
-            background-color: #f8e7a7;
+            background-color:rgb(0, 0, 0);
         }}
 
         /* ชื่อร้าน */
@@ -120,7 +120,7 @@ st.markdown("<div class='subtitle'>Our Products</div>", unsafe_allow_html=True)
 
 # รายการสินค้า
 products = [
-    {"name": "Nike Sneakers", "price": "$120", "image": "https://i.imgur.com/v5fSGVg.jpeg"},
+    {"name": "Nike Sneakers", "price": "$120", "image": "https://i.imgur.com/dR3uqQ3.png"},
     {"name": "Luxury Watch", "price": "$250", "image": "https://i.imgur.com/v5fSGVg.jpeg"},
     {"name": "Leather Bag", "price": "$180", "image": "https://i.imgur.com/v5fSGVg.jpeg"},
     {"name": "Wireless Headphones", "price": "$90", "image": "https://i.imgur.com/v5fSGVg.jpeg"},
